@@ -87,6 +87,7 @@ import static org.apache.dubbo.rpc.Constants.LOCAL_PROTOCOL;
 import static org.apache.dubbo.rpc.cluster.Constants.REFER_KEY;
 
 /**
+ * 服务消费方使用ReferenceConfig对服务接口进行代理
  * Please avoid using this class for any new application,
  * use {@link ReferenceConfigBase} instead.
  */

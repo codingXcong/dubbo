@@ -24,6 +24,7 @@ import org.apache.dubbo.remoting.RemotingException;
 import org.apache.dubbo.remoting.exchange.support.header.HeaderExchanger;
 
 /**
+ * 信息交换，封装请求响应模式，同步转异步
  * Exchanger. (SPI, Singleton, ThreadSafe)
  * <p>
  * <a href="http://en.wikipedia.org/wiki/Message_Exchange_Pattern">Message Exchange Pattern</a>
